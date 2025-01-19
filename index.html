@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Themed Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <header class="calc-header">
+      <span class="calc-logo">calc</span>
+      <div class="theme-switcher">
+        <span>THEME</span>
+        <div class="theme-buttons">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <div class="theme-toggle">
+            <input type="range" id="theme-slider" min="1" max="3" value="1">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="display">
+      <input type="text" id="calc-display" value="0">
+    </div>
+    <div class="buttons">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="btn-del">DEL</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>+</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>.</button>
+      <button>0</button>
+      <button>/</button>
+      <button>*</button>
+      <button class="btn-reset">RESET</button>
+      <button class="btn-equal">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
